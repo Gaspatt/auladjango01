@@ -12,7 +12,8 @@ from core.views import CategoriaViewSet # nova linha
 
 router = DefaultRouter()
 
-router.register(r'usuarios', UserViewSet, basename='usuarios')
+router.register(r"categorias", CategoriaViewSet) # nova linha
+router.register(r"users", UserViewSet, basename="users")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -33,5 +34,3 @@ urlpatterns = [
 ]
 
 
-router.register(r"categorias", CategoriaViewSet) # nova linha
-router.register(r"users", UserViewSet, basename="users")
