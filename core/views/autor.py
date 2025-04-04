@@ -1,7 +1,7 @@
 from rest_framework.viewsets import ModelViewSet
 
-from core.models import Categoria, Autor
-from core.serializers import CategoriaSerializer, AutorSerializer
+from core.models import  Autor
+from core.serializers import AutorSerializer
 
 
 class AutorViewSet(ModelViewSet):
