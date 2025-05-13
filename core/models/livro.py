@@ -15,13 +15,14 @@ class Livro(models.Model):
     editora = models.ForeignKey(Editora, on_delete=models.PROTECT, related_name="livros", null=True, blank=True)
     autores = models.ManyToManyField(Autor, related_name="livros", blank=True)
     capa = models.ForeignKey(
-        Image, 
-        on_delete=models.SET_NULL,
+        Image,
         related_name="+",
-        null=True, 
+        on_delete=models.SET_NULL,
+        null=True,
         blank=True,
         default=None,
     )
+    
 
     def __str__(self):
         return f"({self.id}) {self.titulo} ({self.quantidade})"
