@@ -1,3 +1,4 @@
+
 [
 {
   "model": "auth.permission",
@@ -525,6 +526,38 @@
   "fields": {
     "app_label": "core",
     "model": "livro"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "35ta1kgkec11gfso097lcihcwnmwkku7",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCmHSB16d4zkIEZpGogKe3KeHdt0oVu_3vvv1SgbS1h67KEmdVZgTr9bpHSQ-oO-E711nRqdV3mqHdFH7Tra2N5Xg7376BQL986IiSLSA7iNIyRKTk2RsggZiGUcZoG8dZjcg6szWbIDGSiB8feg1fvD-PUN44:1uIQwu:lE_5kZRUyTT2ir8C39y99F4piPKphXs2mdN_jmQTOTs",
+    "expire_date": "2025-06-06T11:52:28.063Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fxz6vdqni6e6jp72ltliagk56rg52dqt",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln2-hdT0nMGa-3d4ABypDipEHeHSCmgfTPzXiLhtta0dV7SROIstDj9bhnLg9sO6I7tNssyt3WZstwVedAurzPx83K4fwcVe_3WwEjRhhANaMfRUlCWjTeB1MCKldEOfLEaRmUKYB6ACZ3WfnToAgbx_gC9RTcE:1uIQx3:eZBlQNp2KrQPKqaCsdN12_m9BeooSJrXIss0VsgMNmk",
+    "expire_date": "2025-06-06T11:52:37.716Z"
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$k0kGjh2mUbTr2I7myQpJGv$hupZxcS1AvMNh7ZXcnpQJvGalah+Onvw83ko4szbyEA=",
+    "last_login": "2025-05-23T11:52:37.694Z",
+    "is_superuser": true,
+    "passage_id": "",
+    "email": "a@a.com",
+    "name": null,
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
   }
 }
 ]
